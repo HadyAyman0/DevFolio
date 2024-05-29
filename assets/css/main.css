@@ -1,0 +1,331 @@
+/*  repeted classes */
+.box
+{
+  position: relative;
+
+}
+.box::after
+{
+content: "";
+width: 5%;
+height: 3.5px;
+background-color: #0078ff;
+position: absolute;
+left: 47%;
+
+}
+
+
+/* >>>>>>>> Start header style >>>>>>>>>> */
+header .header {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.6)), url(../img/hero-bg.jpg);
+  background-position: center center;
+  background-attachment: fixed;
+  background-size: cover;
+  background-repeat: no-repeat;
+  color: white;
+  width: 100%;
+
+}
+
+.header .header-cap h1 {
+  font-size: 4.5rem;
+}
+
+/* >>>>>>>> End header style >>>>>>>>>> */
+/* >>>>>>>> Start nav style >>>>>>>>>> */
+
+.navbar-brand {
+
+  color: #fff;
+
+}
+
+.navbar-brand:hover,
+.navbar-brand:focus {
+  color: #fff;
+}
+
+.navbar-nav .nav-link.active,
+.navbar-nav .nav-link.show {
+  color: #fff;
+}
+
+.nav-link {
+  color: #fff;
+}
+
+.nav-link:hover,
+.nav-link:focus {
+  color: #fff;
+}
+
+.navbar .line {
+  position: relative;
+}
+
+.navbar .line::after {
+  content: "";
+  width: 0;
+  height: 1px;
+  position: absolute;
+  left: .5rem;
+  bottom: -1px;
+  background-color: #fff;
+  transition: width 350ms;
+}
+
+.navbar .line:hover::after {
+  width: 60%;
+}
+
+/* >>>>>>>> End nav style >>>>>>>>>> */
+
+/* >>>>>>>> Start about style >>>>>>>>>> */
+.about
+{
+  padding-top:4rem ;
+}
+
+.about .container .box-shadow
+{
+  padding:3rem 1.25rem ;
+  background-color:#fff;
+  box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.06), 0 2px 5px 0 rgba(0, 0, 0, 0.2);
+  padding-top: 4rem;
+  padding-bottom: 4rem;
+
+  
+}
+.about .container .box-shadow .about-cap .cap 
+{
+  font-size: 1.25rem;
+  font-weight: 300;
+}
+.about .container .box-shadow .about-cap h1
+{
+  position: relative;
+
+}
+.about .container .box-shadow .about-cap h1::after
+{
+  content: "";
+  width: 20%;
+  height: 3.5px;
+  position: absolute;
+  left: 0;
+  bottom: -4px;
+  background-color:#0078ff ;
+}
+
+
+/* >>>>>>>> End about style >>>>>>>>>> */
+/* >>>>>>>> Start services style >>>>>>>>>> */
+
+ .container .round
+{
+  border-radius: 50%;
+  width: fit-content;
+  padding: 8px;
+  background-color: #0078ff;
+  transition: background-color 350ms;
+
+}
+.container  .icon 
+{
+  background-color: #fff;
+  border-radius: 50%;
+  padding: 30px;
+  transition: background-color 350ms;
+
+}
+.container .round:hover 
+{
+background-color: #cde1f8;
+}
+.container .round:hover .icon
+{
+  background-color:#0078ff ;
+  color: #fff;
+}
+.container .service-box 
+{
+ border-radius: 10px;
+}
+
+/* >>>>>>>> End services  style >>>>>>>>>> */
+/* >>>>>>>> Start third-section  style >>>>>>>>>> */
+.third-section 
+{
+  background-image: url(../img/post-3.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center center;
+  width: 100%;
+ 
+}
+.round2
+{
+  width: fit-content;
+  background-color:#0078ff ;
+
+}
+.overlay 
+{
+  padding: 7rem 0;
+}
+
+/* >>>>>>>> End Third-section style >>>>>>>>>> */
+/* >>>>>>>> Start work-section style >>>>>>>>>> */
+.item:hover picture img 
+{
+  transform: scale(1.5);
+  overflow: hidden;
+
+}
+.item picture img 
+{
+  overflow: hidden;
+  transition: transform 1s;
+}
+.item 
+{
+  overflow: hidden;
+}
+.card-cap
+{
+  padding: 2rem 3% 1rem 4%;
+}
+.card-cap h4 
+{
+  font-size: 1rem ;
+}
+.card-cap .cap 
+{
+  font-size: 0.8rem;
+
+}
+.card-cap i 
+{
+  border-radius: 50%;
+  border: #0078ff solid;
+}
+
+/* >>>>>>>> End work-section style >>>>>>>>>> */
+/* >>>>>>>> Start blog-section style >>>>>>>>>> */
+
+.card-body p
+{
+  font-size: 1rem;
+  color: #4e4e4e;
+  
+}
+.card-footer .atour img
+{
+width: 30px;
+height: 30px;
+}
+.blog .container .card-blog .card-body 
+{
+position: relative;
+  
+}
+ .blog .container .card-blog .card-body .card-over
+{
+  position: absolute;
+  background-color: #0078ff;
+  top: -11% ;
+  left: 35% ;
+  color: #fff;
+  padding: 5px;
+  border-radius: 3px;
+
+}
+
+/* >>>>>>>> End blog-section style >>>>>>>>>> */
+
+
+
+/* >>>>>>>> Start Fourth-section style >>>>>>>>>> */
+
+.carousel-item img 
+{
+  width: 150px;
+}
+
+.carousel-caption
+{
+  position: static;
+}
+
+.forth-section 
+{
+  background-image: url(../img/overlay-bg.jpg);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+
+}
+
+/* >>>>>>>> End Fourth-section style >>>>>>>>>> */
+
+
+
+
+/* >>>>>>>> Start  fotter style >>>>>>>>>> */
+
+.icons 
+{
+  border: solid #0078ff ;
+  border-radius: 50%;
+  transition: border 450ms;
+  cursor: pointer;
+}
+.boxx i
+{
+  transition: background-color 450ms;
+}
+
+.boxx i:hover.icons 
+{
+  border: solid #cde1f8 ;
+}
+
+.boxx i:hover
+{
+  background-color: #0078ff;
+}
+
+.under-line
+{
+  position: relative;
+}
+.under-line::after 
+{
+content: "";
+background-color: #0078ff;
+height: 4px;
+width: 15%;
+position: absolute;
+
+}
+
+footer
+{
+  background-image: url(../img/overlay-bg.jpg);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+
+
+
+
+
+
+
+/* >>>>>>>> End  fotter style >>>>>>>>>> */
